@@ -46,6 +46,7 @@
             "icon": "workflow",
             "pages": [
               "workflows/overview",
+              "workflows/actions",
               "workflows/workflow-templates"
             ]
           },
