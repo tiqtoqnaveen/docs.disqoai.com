@@ -1,75 +1,112 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "disQo.ai Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1D3154",
+    "light": "#f24957",
+    "dark": "#1D3154"
   },
   "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "light"
+  },
+  "icons": {
+    "library": "lucide"
+  },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
+        "group": "Get Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Platform",
+        "icon": "layers",
+        "pages": [
           {
-            "group": "Get Started",
+            "group": "Agents",
+            "icon": "bot-message-square",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "agents/overview",
+              "agents/agent-chats"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Workflows",
+            "icon": "workflow",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "workflows/overview",
+              "workflows/workflow-templates"
+            ]
+          },
+          {
+            "group": "Knowledge Base",
+            "icon": "brain-circuit",
+            "pages": [
+              "knowledge-base/overview"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "icon": "plug",
+            "pages": [
+              "integrations/overview",
+              "integrations/integrations-types"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "icon": "chart-no-axes-combined",
+            "pages": [
+              "analytics/overview"
+            ]
+          },
+          {
+            "group": "Activities",
+            "icon": "history",
+            "pages": [
+              "activities/overview"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Settings & Billing",
+        "icon": "settings",
+        "pages": [
+          "settings/settings",
+          "settings/organisation-management",
+          "settings/billing"
+        ]
+      },
+      {
+        "group": "Data Privacy & Security",
+        "icon": "shield-check",
+        "pages": [
+          "data-privacy/terms-of-service",
+          "data-privacy/privacy-policy"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "disQo.ai",
+          "href": "https://disqoai.com/",
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "tiQtoQ",
+          "href": "https://tiqtoq.co.uk/",
+          "icon": "building"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://tiqtoq.co.uk/blog/",
           "icon": "newspaper"
         }
       ]
@@ -82,21 +119,24 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Home",
+        "href": "https://disqoai.com/"
+      },
+      {
+        "label": "Contact",
+        "href": "mailto:support@disqoai.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "disQo.ai App",
+      "href": "https://app.disqoai.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/tiqtoq-ltd/",
+      "x": "https://x.com/tiqtoqassurance"
     }
   }
 }
