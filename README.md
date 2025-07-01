@@ -1,32 +1,54 @@
-# Mintlify Starter Kit
+# disQo.ai Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Welcome to the disQo.ai documentation repository. disQo.ai is an AI-powered, agentic workflow automation platform that enables users to augment their work by creating AI-powered workflows and agents tailored to various roles within the Software Development Life Cycle (SDLC).
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## About disQo.ai
 
-### Development
+disQo.ai empowers professionals across the SDLC with specialised AI agents. Here are some examples of our current and upcoming features:
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+- **Business Analysts** can leverage Requirement Analyser agents
+- **Quality Assurance** professionals can utilise Test Case Generator agents
+- **Developers** can access code review and optimisation agents
+- **Project Managers** can benefit from project planning and tracking agents
 
-```
-npm i -g mintlify
-```
+These agents represent just a sample of our capabilities. We have more specialised agents and features in our roadmap that will further enhance productivity and efficiency across your development workflow. Stay tuned for exciting updates!
 
-Run the following command at the root of your documentation (where docs.json is)
+## Documentation Structure
 
-```
-mintlify dev
-```
+This documentation covers:
 
-### Publishing Changes
+- **Agents**: AI-powered assistants for specific roles and tasks
+- **Workflows**: Automated process orchestration
+- **Knowledge Base**: Centralised information management
+- **Integrations**: Third-party system connections
+- **Analytics**: Performance insights and metrics
+- **Activities**: Audit trail and activity monitoring
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+## Development
 
-#### Troubleshooting
+To contribute to or preview the documentation locally:
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+1. Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify):
+   ```bash
+   npm i -g mintlify
+   ```
+
+2. Run the development server at the root of this documentation (where `docs.json` is):
+   ```bash
+   mintlify dev
+   ```
+
+## Publishing Changes
+
+Changes are automatically deployed to production when pushed to the default branch. The GitHub App handles deployment automatically.
+
+## Quick Links
+
+- [disQo.ai Platform](https://app.disqoai.com)
+- [Main Website](https://disqoai.com)
+- [Contact Support](mailto:support@disqoai.com)
+
+## Troubleshooting
+
+- **Mintlify dev isn't running**: Run `mintlify install` to re-install dependencies
+- **Page loads as a 404**: Ensure you're running the command in a folder containing `docs.json`
