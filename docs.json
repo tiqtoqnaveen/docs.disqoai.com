@@ -91,26 +91,7 @@
           "data-privacy/privacy-policy"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "disQo.ai",
-          "href": "https://disqoai.com/",
-          "icon": "globe"
-        },
-        {
-          "anchor": "tiQtoQ",
-          "href": "https://tiqtoq.co.uk/",
-          "icon": "building"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://tiqtoq.co.uk/blog/",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
