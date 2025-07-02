@@ -24,9 +24,11 @@
     "groups": [
       {
         "group": "Get Started",
+        "icon": "rocket",
         "pages": [
           "index",
-          "quickstart"
+          "quickstart",
+          "help"
         ]
       },
       {
