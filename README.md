@@ -46,7 +46,7 @@ Changes are automatically deployed to production when pushed to the default bran
 
 - [disQo.ai Platform](https://app.disqoai.com)
 - [Main Website](https://disqoai.com)
-- [Contact Support](mailto:support@disqoai.com)
+- [Contact Support](https://tiqtoq-uk.atlassian.net/servicedesk/customer/portal/4)
 
 ## Troubleshooting
 
